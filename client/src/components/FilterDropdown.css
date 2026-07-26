@@ -1,0 +1,34 @@
+.filter-container{
+
+    width:220px;
+    margin-bottom:20px;
+
+}
+
+.filter-container label{
+
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+    color:#334155;
+
+}
+
+.filter-container select{
+
+    width:100%;
+    padding:12px;
+    border-radius:12px;
+    border:1px solid #dbe3ee;
+    background:white;
+    transition:.3s;
+
+}
+
+.filter-container select:focus{
+
+    outline:none;
+    border-color:#2563eb;
+    box-shadow:0 0 0 4px rgba(37,99,235,.15);
+
+}

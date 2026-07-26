@@ -1,0 +1,39 @@
+.search-container{
+
+    position:relative;
+    width:100%;
+    max-width:450px;
+    margin-bottom:20px;
+
+}
+
+.search-container input{
+
+    width:100%;
+    padding:14px 18px 14px 48px;
+    border-radius:15px;
+    border:1px solid #dbe3ee;
+    font-size:15px;
+    background:white;
+    transition:.3s;
+    box-shadow:0 5px 18px rgba(15,23,42,.05);
+
+}
+
+.search-container input:focus{
+
+    border-color:#2563eb;
+    box-shadow:0 0 0 4px rgba(37,99,235,.15);
+
+}
+
+.search-icon{
+
+    position:absolute;
+    left:16px;
+    top:50%;
+    transform:translateY(-50%);
+    color:#64748b;
+    font-size:18px;
+
+}

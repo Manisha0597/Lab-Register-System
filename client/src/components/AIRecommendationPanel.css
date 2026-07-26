@@ -1,0 +1,97 @@
+.ai-panel{
+    margin-top:10px;
+}
+
+.ai-panel h2{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:24px;
+    color:#1e293b;
+    margin-bottom:20px;
+}
+
+.ai-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:18px;
+}
+
+.ai-card{
+    display:flex;
+    align-items:flex-start;
+    gap:16px;
+    padding:20px;
+    border-radius:18px;
+    background:#ffffff;
+    border:1px solid #e2e8f0;
+    box-shadow:0 8px 25px rgba(15,23,42,.06);
+    transition:all .3s ease;
+}
+
+.ai-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 14px 30px rgba(15,23,42,.12);
+}
+
+.ai-card svg{
+    font-size:26px;
+    min-width:26px;
+    margin-top:2px;
+}
+
+.ai-card h4{
+    margin:0;
+    font-size:16px;
+    font-weight:600;
+    color:#0f172a;
+}
+
+.ai-card p{
+    margin-top:6px;
+    font-size:14px;
+    color:#64748b;
+    line-height:1.5;
+}
+
+/* Left Accent Colours */
+
+.ai-card.success{
+    border-left:6px solid #22c55e;
+}
+
+.ai-card.success svg{
+    color:#22c55e;
+}
+
+.ai-card.warning{
+    border-left:6px solid #f59e0b;
+}
+
+.ai-card.warning svg{
+    color:#f59e0b;
+}
+
+.ai-card.info{
+    border-left:6px solid #3b82f6;
+}
+
+.ai-card.info svg{
+    color:#3b82f6;
+}
+
+.ai-card.purple{
+    border-left:6px solid #8b5cf6;
+}
+
+.ai-card.purple svg{
+    color:#8b5cf6;
+}
+
+@media(max-width:768px){
+
+.ai-grid{
+    grid-template-columns:1fr;
+}
+
+}
